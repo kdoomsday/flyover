@@ -16,7 +16,7 @@
 - [[#key-bindings][Key bindings]]
 
 * Description
-This layer adds support for flyover. [[https://github.com/konrad1977/flyover][Github repo]].
+This layer adds support for [[https://github.com/konrad1977/flyover][flyover]].
 
 ** Features:
 - Prettier flycheck errors
