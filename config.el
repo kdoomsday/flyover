@@ -20,12 +20,12 @@
 (setq flyover-text-tint-percent 50)
 
 ;; Connector to messages
-(setq flyover-virtual-line-icon "╰—") ;;; default its nil
+(setq flyover-virtual-line-icon "— ") ;;; default its nil
 
 ;; Setting this to t would show the message at end of line instead of below
 ;; In that case I would recommend changing to something like
 ;; (setq flyover-virtual-line-icon "→ ") ;;; default its nil
-(setq flyover-show-at-eol nil)
+(setq flyover-show-at-eol t)
 
 ;; Hide when the cursor is in the same line. Seems a bit buggy
 ;; as it doesn't really auto-update. It works on the line, if
