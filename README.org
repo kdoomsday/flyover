@@ -14,12 +14,14 @@
   - [[#features][Features:]]
 - [[#install][Install]]
 - [[#key-bindings][Key bindings]]
+- [[#changes-over-the-default][Changes over the default]]
 
 * Description
-This layer adds support for [[https://github.com/konrad1977/flyover][flyover]].
+This layer adds support for [[https://github.com/konrad1977/flyover][flyover]]. It binds it to the ~flycheck-mode-hook~ by
+default.
 
 ** Features:
-- Prettier flycheck errors
+- Enables the flyover package. Check it out to see all the options.
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
@@ -30,3 +32,9 @@ file.
 | Key binding | Description         |
 |-------------+---------------------|
 | ~SPC o f~   | Toggle flyover mode |
+
+* Changes over the default
+All of the flyover configurations are available. This package makes the
+following changes to defaults (although you can of course turn them back):
+- (setq flyover-show-at-eol t)          → to show errors on same line
+- (setq flyover-virtual-line-icon "— ") → So it looks better in the same line
