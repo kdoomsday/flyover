@@ -43,7 +43,10 @@
 
 (defconst flyover-packages
   '(
-    (flyover :location local)
+    (flyover
+     :fetcher github
+     :repo "konrad1977/flyover"
+     :files ("flyover.el"))
     )
   "The list of Lisp packages required by the flyover layer.
 
